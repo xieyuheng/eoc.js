@@ -1,5 +1,3 @@
-setup ts project
-
 lang-var-checker
 lang-c-var-checker
 improve testing
