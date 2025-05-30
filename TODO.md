@@ -1,5 +1,3 @@
-[sexp] copy code from `cicada-lang/lambda`
-
 [syntax] `CProgram`
 [syntax] `parse`
 [syntax] `format`
