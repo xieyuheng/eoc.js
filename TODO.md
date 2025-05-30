@@ -1,4 +1,4 @@
-[syntax] `format` -- format to sexp
+[syntax] `format`
 [syntax] `parse`
 
 lang-var-checker

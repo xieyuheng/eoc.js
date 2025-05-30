@@ -1,5 +1,5 @@
-// import { type Exp } from "./Exp.ts"
+import { type Exp } from "./Exp.ts"
 
-// export function formatExp(): String {
-
-// }
+export function formatExp(exp: Exp): string {
+  return ""
+}
