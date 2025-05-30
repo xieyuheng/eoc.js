@@ -1,5 +1,6 @@
+[sexp] remove `family` from `Sexp` types
+[syntax] `format` -- format to sexp
 [syntax] `parse`
-[syntax] `format`
 
 lang-var-checker
 lang-c-var-checker

@@ -2,14 +2,13 @@ import { Span } from "../span/index.ts"
 
 export type Sexp = Cons | Null | Num | Str | Sym
 
-type ExpMeta = { span: Span }
-
 export type Cons = {
   family: "Sexp"
   kind: "Cons"
   head: Sexp
   tail: Sexp
-} & ExpMeta
+  span: Span
+}
 
 export function Cons(head: Sexp, tail: Sexp, span: Span): Cons {
   return {
@@ -24,7 +23,8 @@ export function Cons(head: Sexp, tail: Sexp, span: Span): Cons {
 export type Null = {
   family: "Sexp"
   kind: "Null"
-} & ExpMeta
+  span: Span
+}
 
 export function Null(span: Span): Null {
   return {
@@ -38,7 +38,8 @@ export type Num = {
   family: "Sexp"
   kind: "Num"
   value: number
-} & ExpMeta
+  span: Span
+}
 
 export function Num(value: number, span: Span): Num {
   return {
@@ -53,7 +54,8 @@ export type Str = {
   family: "Sexp"
   kind: "Str"
   value: string
-} & ExpMeta
+  span: Span
+}
 
 export function Str(value: string, span: Span): Str {
   return {
@@ -68,7 +70,8 @@ export type Sym = {
   family: "Sexp"
   kind: "Sym"
   value: string
-} & ExpMeta
+  span: Span
+}
 
 export function Sym(value: string, span: Span): Sym {
   return {
