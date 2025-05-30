@@ -1,5 +1,8 @@
-[syntax] `format`
 [syntax] `parse`
+
+[syntax] `format` -- `formatProgram`
+[syntax] `format` -- `formatCProgram`
+[syntax] `format` -- `formatCExp`
 
 lang-var-checker
 lang-c-var-checker
