@@ -5,8 +5,10 @@ from [Essentials of Compilation](https://github.com/IUCompilerCourse/Essentials-
 
 ## Development
 
-```shell
-TODO
+```sh
+npm install     # Install dependencies
+npm run build   # Compile `src/` to `lib/`
+npm run test    # Run test
 ```
 
 ## Contributions
