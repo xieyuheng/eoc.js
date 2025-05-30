@@ -1,6 +1,6 @@
 [sexp] copy code from `cicada-lang/lambda`
 
-[syntax] `CExp`
+[syntax] `CProgram`
 [syntax] `parse`
 [syntax] `format`
 
