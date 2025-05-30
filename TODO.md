@@ -1,3 +1,7 @@
+[syntax] ast
+[syntax] parse
+syntax/ast
+
 lang-var-checker
 lang-c-var-checker
 improve testing
