@@ -1,4 +1,3 @@
-[sexp] remove `family` from `Sexp` types
 [syntax] `format` -- format to sexp
 [syntax] `parse`
 
