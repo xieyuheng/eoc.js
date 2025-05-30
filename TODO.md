@@ -1,4 +1,3 @@
-[syntax] `CProgram`
 [syntax] `parse`
 [syntax] `format`
 
