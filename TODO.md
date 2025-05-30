@@ -1,5 +1,8 @@
-[syntax] parse
-[syntax] format
+[sexp] copy code from `cicada-lang/lambda`
+
+[syntax] `CExp`
+[syntax] `parse`
+[syntax] `format`
 
 lang-var-checker
 lang-c-var-checker
