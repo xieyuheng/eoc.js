@@ -1,6 +1,6 @@
 [syntax] ast
 [syntax] parse
-syntax/ast
+[syntax] format
 
 lang-var-checker
 lang-c-var-checker
