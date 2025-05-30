@@ -1,4 +1,12 @@
-[syntax] `parse`
+LangInt1 -- evaluateExp
+
+LangInt -- setup
+LangInt -- evaluateProgram
+LangInt -- evaluateExp
+
+[syntax] `Parser`
+[syntax] `matchExp`
+[syntax] `matchProgram`
 
 [syntax] `format` -- `formatProgram`
 [syntax] `format` -- `formatCProgram`
