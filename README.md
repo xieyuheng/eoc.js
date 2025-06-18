@@ -1,4 +1,4 @@
-# my-lisp.js
+# eoc.js
 
 Learning how to write compiler
 from [Essentials of Compilation](https://github.com/IUCompilerCourse/Essentials-of-Compilation).

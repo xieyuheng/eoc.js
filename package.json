@@ -1,7 +1,7 @@
 {
-  "name": "@xieyuheng/my-lisp.js",
+  "name": "@xieyuheng/eoc.js",
   "version": "0.0.1",
-  "repository": "github:xieyuheng/my-lisp.js",
+  "repository": "github:xieyuheng/eoc.js",
   "license": "GPL-3.0-or-later",
   "type": "module",
   "main": "./lib/index.js",
